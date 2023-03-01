@@ -1,8 +1,5 @@
-@font-face {
-    font-family: 'Noto Sans Japanese';
-    src: url(https://fonts.google.com/noto/specimen/Noto+Sans+JP);
-}
-
-h1{
-    font-family: 'Noto Sans Japanese';
+header{
+    font-size: xx-large;
+    color: crimson;
+    font-weight: lighter;
 }
