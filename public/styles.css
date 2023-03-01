@@ -1,5 +1,8 @@
-h1{
-   font-family: customFonts;
-   src: url(https://fonts.google.com/noto/specimen/Noto+Sans+JP);
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    src: url(https://fonts.google.com/noto/specimen/Noto+Sans+JP);
+}
 
+h1{
+    font-family: 'Noto Sans Japanese';
 }
