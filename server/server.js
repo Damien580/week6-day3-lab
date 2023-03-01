@@ -8,10 +8,10 @@ app.use(express.json())
 app.use(cors())
 app.use(express.static('public'))
 
-console.log(__dirname + '/../public/index.HTML')
+
 
 app.get('/', (req, res) => {
-    res.status(200).sendFile(path.join(__dirname, '../public/index.HTML'))
+    res.status(200).sendFile(path.join(__dirname, '../public/deployment.HTML'))
 })
 
 app.get('/css', (req, res) => {
@@ -19,7 +19,7 @@ app.get('/css', (req, res) => {
 })
 
 app.get('/js', (req, res) => {
-    res.status(200).sendFile(path.join(__dirname, '../public/main.js'))
+    res.status(200).sendFile(path.join(__dirname, '../public/index.js'))
 
 })
 
