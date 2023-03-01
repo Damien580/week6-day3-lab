@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(cors())
 app.use(express.static('public'))
 
-console.log(__dirname + '/../public/deployment.HTML')
+console.log(__dirname + '/../public/deployment.html')
 
 app.get('/', (req, res) => {
     res.status(200).sendFile(path.join(__dirname, '../public/deployment.html'))
