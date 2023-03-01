@@ -11,7 +11,7 @@ app.use(express.static('public'))
 console.log(__dirname + '/../public/deployment.HTML')
 
 app.get('/', (req, res) => {
-    res.status(200).sendFile(path.join(__dirname, '../public/deployment.HTML'))
+    res.status(200).sendFile(path.join(__dirname, '../public/deployment.html'))
 })
 
 app.get('/css', (req, res) => {
